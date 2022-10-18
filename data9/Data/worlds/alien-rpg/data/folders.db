@@ -1,0 +1,44 @@
+{"name":"Alien Tables","type":"RollTable","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"ZBTfmz0WsdyId7EV"}
+{"name":"Alien Creature Tables","type":"RollTable","parent":"ZBTfmz0WsdyId7EV","sorting":"a","sort":0,"color":"#ff0000","flags":{},"_id":"EzxGNNRoKwHo1zFY"}
+{"name":"Alien Mother Tables","type":"RollTable","parent":"ZBTfmz0WsdyId7EV","sorting":"a","sort":0,"color":"#00c100","flags":{},"_id":"v3viEiDLviPr4tvC"}
+{"name":"Skill-Stunts","type":"Item","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"f1rwPOfmhTHxAsyC"}
+{"name":"Alien RPG Starter Set Rules","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":"#9e8900","flags":{},"_id":"mTtkeb1FeRqOCEvf"}
+{"name":"The Art of Alien","type":"JournalEntry","parent":null,"sorting":"a","sort":100000,"color":"#9e62da","flags":{},"_id":"b2U1hTLknQ3MwJWn"}
+{"name":"Alien RPG Mother Aids","type":"Scene","parent":null,"sorting":"a","sort":0,"color":"#009d00","flags":{},"_id":"rJnK1AtcQ9R8EVG1"}
+{"name":"Alien RPG Armor","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#8b0426","flags":{},"_id":"MlSgceJz7vQ6Cm87"}
+{"name":"Alien RPG Equipment","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#341cb0","flags":{},"_id":"suPlGSZ648d3sChX"}
+{"name":"Alien RPG Weapons","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#917e22","flags":{},"_id":"BzAS7847qPPFDoBn"}
+{"name":"Alien RPG Talents(Career)","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#227591","flags":{},"_id":"sYOuAZYTn0HGo9HG"}
+{"name":"Alien RPG CotG - Agendas","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#d36464","flags":{},"_id":"TQOPTBvCQ8IPP1BS"}
+{"name":"Chariot Of the Gods - Scenario","type":"JournalEntry","parent":null,"sorting":"a","sort":200000,"color":"#d36464","flags":{},"_id":"qv4idcYKPwnMremZ"}
+{"name":"Chariot of the Gods - Actors","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#d36464","flags":{},"_id":"47G9pK6QIp5JcB4f"}
+{"name":"Alien RPG Chariot of the Gods - Maps","type":"Scene","parent":null,"sorting":"a","sort":0,"color":"#d36464","flags":{},"_id":"lNXjcKZRQZwE3pOK"}
+{"name":"Alien Sub-Tables","type":"RollTable","parent":"v3viEiDLviPr4tvC","sorting":"a","sort":0,"color":null,"flags":{},"_id":"orD9d0ZSyjN5Lhs9"}
+{"name":"1. CotG Scenario","type":"JournalEntry","parent":"qv4idcYKPwnMremZ","sorting":"a","sort":0,"color":"#149294","flags":{},"_id":"RvXrz6xgpieLnxg1"}
+{"name":"Alien RPG CotG Characters","type":"Actor","parent":"47G9pK6QIp5JcB4f","sorting":"a","sort":0,"color":"#048b04","flags":{},"_id":"TDHRlfbGXLbEXRmw"}
+{"name":"CotG NPC's","type":"Actor","parent":"TDHRlfbGXLbEXRmw","sorting":"a","sort":0,"color":"#ab16d4","flags":{},"_id":"XJH9wq8omzhS8jYb"}
+{"name":"2. CotG Player Handouts","type":"JournalEntry","parent":"qv4idcYKPwnMremZ","sorting":"a","sort":0,"color":"#149294","flags":{},"_id":"5iQ95I2j8oBCnF0f"}
+{"name":"CotG PC's","type":"Actor","parent":"TDHRlfbGXLbEXRmw","sorting":"a","sort":0,"color":"#5bc85b","flags":{},"_id":"yOYDS9lvb0wPQruV"}
+{"name":"3. The Art of Chariot of the Gods","type":"JournalEntry","parent":"qv4idcYKPwnMremZ","sorting":"a","sort":0,"color":"#149294","flags":{},"_id":"Rtu4AunRiVvbNrbu"}
+{"name":"Alien RPG CotG Creatures","type":"Actor","parent":"47G9pK6QIp5JcB4f","sorting":"a","sort":0,"color":"#940a0a","flags":{},"_id":"Itkj31uk47xwP5KZ"}
+{"name":"Alien RPG Rule Book","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":"#9e2f00","flags":{},"_id":"jMCHPNVFXnAJVIrI"}
+{"name":"Alien RPG - Actors","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#0000ff","flags":{},"_id":"qeG8oLbqeQgOv8uP"}
+{"name":"Alien RPG Systems","type":"Item","parent":null,"sorting":"a","sort":300000,"color":"#a24f0b","flags":{},"_id":"nUs9gvWXQmhLYuJO"}
+{"name":"Alien RPG Talents(General)","type":"Item","parent":null,"sorting":"a","sort":500000,"color":"#22918f","flags":{},"_id":"D81iAuXs6jph8fM9"}
+{"name":"Alien RPG Vehicle Weapons","type":"Item","parent":null,"sorting":"a","sort":600000,"color":"#066a0d","flags":{},"_id":"w0yQ6AjkQfFk0SC8"}
+{"name":"Alien RPG Systems Journals","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":"#000000","flags":{},"_id":"D2b6SfDieYag0asd"}
+{"name":"Hope's Last Day - Scenario","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":"#718ed0","flags":{},"_id":"k2vwj7WcjpeOoLk6"}
+{"name":"Alien RPG Hope's Last Day - Maps","type":"Scene","parent":null,"sorting":"a","sort":0,"color":"#718ed0","flags":{},"_id":"s9F9AAHJehWsCc6C"}
+{"name":"Hope's Last Day - Actors","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#718ed0","flags":{},"_id":"CKnDtzfdjI3R3mo3"}
+{"name":"Novgorod NPCs","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#b12b2b","flags":{},"_id":"iRI1E8h2fpu03BpD"}
+{"name":"Alien RPG Novgorod Station","type":"Scene","parent":null,"sorting":"a","sort":0,"color":"#ba4f4f","flags":{},"_id":"2ZunmtaXki6FxvwM"}
+{"name":"Alien RPG Creatures","type":"Actor","parent":"qeG8oLbqeQgOv8uP","sorting":"a","sort":0,"color":"#048b04","flags":{},"_id":"8kf9H3rbJSCbgYwW"}
+{"name":"1. HLD Scenario","type":"JournalEntry","parent":"k2vwj7WcjpeOoLk6","sorting":"a","sort":0,"color":"#643ad9","flags":{},"_id":"N3DPtoTJhjf91Wh9"}
+{"name":"HLD NPC's","type":"Actor","parent":"CKnDtzfdjI3R3mo3","sorting":"a","sort":0,"color":"#ab16d4","flags":{},"_id":"KYkkTRH6VeItxVLu"}
+{"name":"2. The Art of Hope's Last Day","type":"JournalEntry","parent":"k2vwj7WcjpeOoLk6","sorting":"a","sort":0,"color":"#643ad9","flags":{},"_id":"jHMWE8DhzuW7hi0E"}
+{"name":"Alien RPG NPCs","type":"Actor","parent":"qeG8oLbqeQgOv8uP","sorting":"a","sort":100000,"color":"#9b8a1c","flags":{},"_id":"2QhM4Uz9PuQ4MK4R"}
+{"name":"HLD PC's","type":"Actor","parent":"CKnDtzfdjI3R3mo3","sorting":"a","sort":0,"color":"#5bc85b","flags":{},"_id":"7BhgmHcvvmMTfDpt"}
+{"name":"Alien RPG Territories","type":"Actor","parent":"qeG8oLbqeQgOv8uP","sorting":"a","sort":0,"color":"#723f9d","flags":{},"_id":"dLb5aBkL4PXm6zqM"}
+{"name":"Alien RPG Vehicles","type":"Actor","parent":"qeG8oLbqeQgOv8uP","sorting":"a","sort":0,"color":"#8b0426","flags":{},"_id":"b8wxYP8TQt5ahg6d"}
+{"name":"Playable","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#ffffff","flags":{},"_id":"qF41o6EMakcUZSNk"}
+{"_id":"qF41o6EMakcUZSNk","name":"Playable","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#241f31","flags":{}}

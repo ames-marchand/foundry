@@ -1,0 +1,1199 @@
+/* Global styles */
+
+.journal-sheet form {
+  color: var(--aliengreen);
+  background: #000;
+  border: 1px solid var(--aliengreen);
+  border-radius: 1px;
+  background: url(../images/pictures/indbackground2.png) no-repeat top left;
+  background-size: cover;
+  /* color: powderblue; */
+  /* style="background-image: url('modules/alienrpg-corerules/images/pictures/IndBackground3.png'); background-size: contain; background-color: black; color: powderblue" */
+}
+
+.headng {
+  text-align: center;
+  color: greenyellow;
+  font-size: xx-large;
+}
+.headng2 {
+  text-align: center;
+  color: greenyellow;
+  /* font-size: x-large; */
+}
+.headng3 {
+  color: greenyellow;
+}
+
+.arpgtable,
+th,
+td {
+  height: 36px;
+  width: 80%;
+  /* border-style: double;
+  border-color: greenyellow; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+.arpgtable tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.caption {
+  text-align: center;
+  color: greenyellow;
+  font-size: xx-large;
+}
+
+.arpgtablesmall,
+th,
+td {
+  height: 36px;
+  width: 34%;
+  /* border-style: double;
+  border-color: greenyellow; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+.arpgtablesmall tr:nth-child(even) {
+  background-color: transparent;
+}
+.tdstyle {
+  width: 40%;
+  height: 18px;
+  text-align: left;
+}
+.tdstyleR {
+  width: 40%;
+  height: 18px;
+  text-align: Right;
+}
+.tdstyleC {
+  width: 100%;
+  height: 18px;
+  text-align: center;
+}
+
+.arpglink {
+  background-color: white;
+  color: black;
+}
+
+.mess {
+  color: yellowgreen;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ntable,
+th,
+td {
+  width: 99%;
+  /* border-style: double;
+  border-color: greenyellow; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.ntable tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.trhead {
+  text-align: center;
+  width: 45%;
+  font-weight: bold;
+}
+
+.tcol1 {
+  width: 2.5%;
+}
+.tcol2 {
+  width: 45%;
+  text-align: justify;
+  vertical-align: top;
+}
+.tcol3 {
+  width: 5%;
+}
+
+.etable,
+td {
+  width: 40%;
+  /* border-style: double; */
+  border-color: #e92d2d;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.etable td:first-child {
+  padding-left: 5px;
+}
+.etr {
+  /* border-style: solid;
+  border-color: greenyellow; */
+  border: 1;
+}
+.ehead {
+  text-align: center;
+  font-weight: bold;
+}
+.ecol1 {
+  width: 50%;
+  text-align: center;
+}
+.ecol2 {
+  width: 50%;
+  text-align: center;
+}
+.ecol3 {
+  width: 3%;
+  /* border-left: greenyellow;
+  border-style: solid; */
+}
+
+.stable,
+td {
+  width: 90%;
+  /* border-style: double; */
+  border-color: #e92d2d;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.strhead {
+  text-align: center;
+  font-weight: bold;
+}
+
+.scol1 {
+  width: 16%;
+}
+.scol2 {
+  width: 3%;
+}
+.scol3 {
+  width: 80%;
+}
+.scol4 {
+  width: 25%;
+}
+.scol5 {
+  width: 60%;
+  text-align: left;
+}
+.scol6 {
+  width: 90%;
+}
+
+.scol7 {
+  width: 20%;
+  text-align: left;
+}
+.scol8 {
+  width: 65%;
+  text-align: left;
+}
+.scol9 {
+  width: 12%;
+}
+.scol10 {
+  width: 50%;
+}
+
+.skltable,
+td {
+  width: 30%;
+  /* border-style: double; */
+  /* border-color: #e92d2d; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1;
+}
+
+.oddstable,
+td {
+  width: 96%;
+  height: 16px;
+  /* border-style: double; */
+  border-color: #e92d2d;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.oddhead {
+  font-weight: bold;
+}
+.oddcol1 {
+  width: 25%;
+}
+.oddcol2 {
+  width: 39%;
+}
+.oddcol3 {
+  width: 36%;
+}
+.oddcol4 {
+  width: 40%;
+}
+
+.bigtable,
+td {
+  width: 99%;
+  /* border-style: double; */
+  border-color: #e92d2d;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.die {
+  width: 6%;
+  text-align: center;
+}
+
+.inj {
+  width: 16%;
+}
+
+.fat {
+  width: 6%;
+}
+
+.tim {
+  width: 7%;
+  text-align: center;
+}
+
+.eff {
+  width: 56%;
+}
+
+.heal {
+  width: 15%;
+  text-align: center;
+}
+.crit {
+  width: 19%;
+  text-align: center;
+}
+.eff2 {
+  width: 55%;
+}
+.tenper {
+  width: 9%;
+  text-align: center;
+}
+
+.cinsymbol {
+  display: inline-block;
+  background-image: url('../images/icons/cin-symbol.png');
+  width: 36px;
+  height: 35px;
+  vertical-align: middle;
+  background-size: 36px;
+  border: 0;
+}
+
+.camsymbol {
+  display: inline-block;
+  background-image: url('../images/icons/cam-symbol.png');
+  width: 36px;
+  height: 35px;
+  vertical-align: middle;
+  background-size: 36px;
+  border: 0;
+}
+
+.stresssymbol {
+  display: inline-block;
+  background-image: url('../images/icons/alien-dice-y1.png');
+  width: 36px;
+  height: 35px;
+  vertical-align: middle;
+  background-size: 36px;
+  border: 0;
+}
+
+.basesymbol {
+  display: inline-block;
+  background-image: url('../images/icons/alien-dice-6.png');
+  width: 36px;
+  height: 35px;
+  vertical-align: middle;
+  background-size: 36px;
+  border: 0;
+}
+.xeno {
+  display: inline-block;
+  background-image: url('../images/pictures/xenomorph2.webp');
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  background-size: 100%;
+  border: 0;
+}
+.pinionAvatar {
+  display: block;
+  background-image: url('../images/avatar/pinion-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+
+.HBAvatar {
+  display: block;
+  background-image: url('../images/avatar/helen-bein-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.DCAvatar {
+  display: block;
+  background-image: url('../images/avatar/daniel-cooper-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.JJWAvatar {
+  display: block;
+  background-image: url('../images/avatar/john-j-wilson-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.KRAvatar {
+  display: block;
+  background-image: url('../images/avatar/kayla-rye-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.LDAvatar {
+  display: block;
+  background-image: url('../images/avatar/leah-davis-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.LFAvatar {
+  display: block;
+  background-image: url('../images/avatar/liam-flynn-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.LCAvatar {
+  display: block;
+  background-image: url('../images/avatar/lori-clayton-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.LyCAvatar {
+  display: block;
+  background-image: url('../images/avatar/lyron-cham-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.MHAvatar {
+  display: block;
+  background-image: url('../images/avatar/micky-horton-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.VRAvatar {
+  display: block;
+  background-image: url('../images/avatar/valerie-reid-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.VMAvatar {
+  display: block;
+  background-image: url('../images/avatar/vanessa-miller-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.AV6Avatar {
+  display: block;
+  background-image: url('../images/avatar/ava-6-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.AJAvatar {
+  display: block;
+  background-image: url('../images/avatar/albert-johns-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.ABAvatar {
+  display: block;
+  background-image: url('../images/avatar/adisa-bolaji-avatar.png');
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.M4A3 {
+  display: block;
+  background-image: url('../images/icons/m4a3-service-pistol.png');
+  width: 182px;
+  height: 109px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Magnum357 {
+  display: block;
+  background-image: url('../images/icons/357-magnum-revolver.png');
+  width: 182px;
+  height: 109px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Rexim {
+  display: block;
+  background-image: url('../images/icons/rexim-rxf-m5-eva-pistol.png');
+  width: 182px;
+  height: 109px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.WATA {
+  display: block;
+  background-image: url('../images/icons/watatsumi-dv-303-bolt-gun.png');
+  width: 182px;
+  height: 109px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M41A {
+  display: block;
+  background-image: url('../images/icons/armat-m41a-pulse-rifle.png');
+  width: 364px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.AK4047 {
+  display: block;
+  background-image: url('../images/icons/ak-4047-pulse-assault-rifle.png');
+  width: 364px;
+  height: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M42A {
+  display: block;
+  background-image: url('../images/icons/m42a-scope-rifle.png');
+  width: 364px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M37A2 {
+  display: block;
+  background-image: url('../images/icons/armat-model-37a2-12-gauge-pump-action.png');
+  width: 364px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.XM99A {
+  display: block;
+  background-image: url('../images/icons/armat-xm99a-phased-plasma-pulse-rifle.png');
+  width: 364px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.ASSO400 {
+  display: block;
+  background-image: url('../images/icons/spacesub-asso-400-harpoon-grappling-gun.png');
+  width: 364px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M41AE2 {
+  display: block;
+  background-image: url('../images/icons/armat-m41ae2-heavy-pulse-rifle.png');
+  width: 364px;
+  height: 187px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M56A2 {
+  display: block;
+  background-image: url('../images/icons/m56a2-smart-gun.png');
+  width: 364px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.M240 {
+  display: block;
+  background-image: url('../images/icons/m240-incinerator-unit.png');
+  width: 364px;
+  height: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archMar {
+  display: block;
+  background-image: url('../images/pictures/arch-marin.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archColMarsh {
+  display: block;
+  background-image: url('../images/pictures/arch-colonial-marshal.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archCompAge {
+  display: block;
+  background-image: url('../images/pictures/arch-corp.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archKid {
+  display: block;
+  background-image: url('../images/pictures/arch-kid.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archMedic {
+  display: block;
+  background-image: url('../images/pictures/arch-medic.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archOfficer {
+  display: block;
+  background-image: url('../images/pictures/archetype-officer.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archPilot {
+  display: block;
+  background-image: url('../images/pictures/arch-pilot.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archRough {
+  display: block;
+  background-image: url('../images/pictures/arch-roughneck.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.archSci {
+  display: block;
+  background-image: url('../images/pictures/arch-scientist.png');
+  width: 325px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+
+.Daihotai {
+  display: block;
+  background-image: url('../images/pictures/daihotai.png');
+  /* width: 822px;
+  height: 594px; */
+  width: 400px;
+  height: 287px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.APC577 {
+  display: block;
+  background-image: url('../images/pictures/577apc.png');
+  /* width: 1144px;
+  height: 528px; */
+  width: 700px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.UD4 {
+  display: block;
+  background-image: url('../images/pictures/ud4.png');
+  /* width: 1182px;
+  height: 441px; */
+  width: 700px;
+  height: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.CM90S {
+  display: block;
+  background-image: url('../images/pictures/cm-90s-corvus.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 700px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.CM88H {
+  display: block;
+  background-image: url('../images/pictures/cm-88h-bison.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 700px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Conestoga {
+  display: block;
+  background-image: url('../images/pictures/conestoga.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 700px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.solsector {
+  display: block;
+  background-image: url('../images/pictures/sol-sector.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.AG4550 {
+  display: block;
+  background-image: url('../images/pictures/ag4550.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Heske {
+  display: block;
+  background-image: url('../images/pictures/heske.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.JPG770 {
+  display: block;
+  background-image: url('../images/pictures/jpg770.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.POL5362 {
+  display: block;
+  background-image: url('../images/pictures/pol5362.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Fori16 {
+  display: block;
+  background-image: url('../images/pictures/fori16.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.PHEI17 {
+  display: block;
+  background-image: url('../images/pictures/17phei.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Renquest {
+  display: block;
+  background-image: url('../images/pictures/renquest.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Gliese {
+  display: block;
+  background-image: url('../images/pictures/gliese.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Eta8 {
+  display: block;
+  background-image: url('../images/pictures/eta8.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.GJ229A {
+  display: block;
+  background-image: url('../images/pictures/gj229a.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.GL300 {
+  display: block;
+  background-image: url('../images/pictures/gl300.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.KHADJI {
+  display: block;
+  background-image: url('../images/pictures/khadji.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.AlphaCaeli {
+  display: block;
+  background-image: url('../images/pictures/alphacaeli.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.GamaLeporis {
+  display: block;
+  background-image: url('../images/pictures/gamaleporis.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.EpsilonReticuli {
+  display: block;
+  background-image: url('../images/pictures/epsilonreticuli.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Tanaka {
+  display: block;
+  background-image: url('../images/pictures/tanaka.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.ZetaReticuli {
+  display: block;
+  background-image: url('../images/pictures/zetareticuli.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.Achilles {
+  display: block;
+  background-image: url('../images/pictures/achilles.png');
+  /* width: 960px;
+  height: 563px; */
+  width: 294px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.novgorod-small {
+  display: inline-block;
+  background-image: url('../images/pictures/novgorod-small.webp');
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  background-size: 100%;
+  border: 0;
+}
+.hadleys {
+  display: inline-block;
+  background-image: url('../images/pictures/Hadleys.webp');
+  width: 700px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}
+.hirsch {
+  display: block;
+  background-image: url('../images/avatar/hirsch.png');
+  width: 256px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.sigg {
+  display: block;
+  background-image: url('../images/avatar/sigg.png');
+  width: 256px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.holroyd {
+  display: block;
+  background-image: url('../images/avatar/holroyd.png');
+  width: 256px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.mcwhirr {
+  display: block;
+  background-image: url('../images/avatar/mcwhirr.png');
+  width: 256px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.singleton {
+  display: block;
+  background-image: url('../images/avatar/singleton.png');
+  width: 256px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.chaplain {
+  display: block;
+  background-image: url('../images/avatar/chaplain-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.dante {
+  display: block;
+  background-image: url('../images/avatar/dante-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.hammer {
+  display: block;
+  background-image: url('../images/avatar/hammer-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.iona {
+  display: block;
+  background-image: url('../images/avatar/iona-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.mason {
+  display: block;
+  background-image: url('../images/avatar/mason-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.silva {
+  display: block;
+  background-image: url('../images/avatar/silva-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+.zmijewski {
+  display: block;
+  background-image: url('../images/avatar/zmijewski-avatar.png');
+  width: 256px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* vertical-align: middle; */
+  background-size: 100%;
+  border: 0;
+}
+
+.chat-roll {
+  display: block;
+  background-image: url('../images/pictures/chat-roll.png');
+  width: 313px;
+  height: 237px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  border: 0;
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Alien RPG",
+  "id": "alien-rpg",
+  "system": "alienrpg",
+  "background": "airlock.jpg",
+  "description": "<p>How shit is your GM?</p><p></p><p>I can't lie to you about your chances but… you have my sympathies!</p>",
+  "coreVersion": "10.288",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "2.1.3"
+}

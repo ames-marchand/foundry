@@ -1,0 +1,22 @@
+{
+  "name": "alien-rpg",
+  "title": "Alien RPG",
+  "description": "<p>How shit is your GM?</p>\n<p> </p>\n<p>I can't lie to you about your chances but... you have my sympathies...</p>",
+  "authors": [],
+  "flags": {},
+  "version": "1.0.0",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [],
+  "system": "alienrpg",
+  "dependencies": [],
+  "socket": false,
+  "protected": false,
+  "background": "airlock.jpg",
+  "coreVersion": "9.280",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "2.1.3"
+}

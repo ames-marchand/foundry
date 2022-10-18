@@ -1,0 +1,169 @@
+{
+  "name": "alienrpg-corerules",
+  "title": "AlienRPG Core Rulebook",
+  "description": "A Module containing all the data from the Core Rule Book.",
+  "author": "Paul Watson",
+  "version": "2.0.4",
+  "minimumCoreVersion": "0.8.5",
+  "compatibleCoreVersion": "9",
+	"esmodules": ["/module/init.js"],
+  "system": [
+    "alienrpg"
+  ],
+  "styles": [
+    "/css/starterset.css"
+  ],
+  "packs": [
+    {
+      "name": "alienrpg-gmguide",
+      "label": "Alien RPG GM Guide",
+      "path": "packs/alienrpg-gmguide.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-playerguide",
+      "label": "Alien RPG Player Guide",
+      "path": "packs/alienrpg-playerguide.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-rule-book-journal",
+      "label": "Alien RPG Rule Book",
+      "path": "packs/alienrpg-rule-book-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-actors-actors",
+      "label": "Alien RPG - Actors",
+      "path": "packs/alienrpg-actors-actors.db",
+      "entity": "Actor",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-armor-items",
+      "label": "Alien RPG Armor",
+      "path": "packs/alienrpg-armor-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-equipment-items",
+      "label": "Alien RPG Equipment",
+      "path": "packs/alienrpg-equipment-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-systems-items",
+      "label": "Alien RPG Systems",
+      "path": "packs/alienrpg-systems-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-talentscareer-items",
+      "label": "Alien RPG Talents(Career)",
+      "path": "packs/alienrpg-talentscareer-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-talentsgeneral-items",
+      "label": "Alien RPG Talents(General)",
+      "path": "packs/alienrpg-talentsgeneral-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-vehicle-weapons-items",
+      "label": "Alien RPG Vehicle Weapons",
+      "path": "packs/alienrpg-vehicle-weapons-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-weapons-items",
+      "label": "Alien RPG Weapons",
+      "path": "packs/alienrpg-weapons-items.db",
+      "entity": "Item",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-the-art-of-alien-journal",
+      "label": "The Art of Alien",
+      "path": "packs/alienrpg-the-art-of-alien-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+     {
+      "name": "alienrpg-systems-journals-journal",
+      "label": "Alien RPG Systems Journals",
+      "path": "packs/alienrpg-systems-journals-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-tables-tables",
+      "label": "Alien Tables",
+      "path": "packs/alienrpg-tables-tables.db",
+      "entity": "RollTable",
+      "module": "alienrpg-corerules"
+    },
+     {
+      "name": "alienrpg-hopes-last-day-scenario-journal",
+      "label": "Hope's Last Day - Scenario",
+      "path": "packs/alienrpg-hopes-last-day-scenario-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-hopes-last-day-maps-scenes",
+      "label": "Alien RPG Hope's Last Day - Maps",
+      "path": "packs/alienrpg-hopes-last-day-maps-scenes.db",
+      "entity": "Scene",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-mother-aids-scenes",
+      "label": "Alien RPG Mother Aids",
+      "path": "packs/alienrpg-mother-aids-scenes.db",
+      "entity": "Scene",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-hopes-last-day-actors-actors",
+      "label": "Hope's Last Day - Actors",
+      "path": "packs/alienrpg-hopes-last-day-actors-actors.db",
+      "entity": "Actor",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-novgorod-npcs-actors",
+      "label": "Novgorod NPCs",
+      "path": "packs/alienrpg-novgorod-npcs-actors.db",
+      "entity": "Actor",
+      "module": "alienrpg-corerules"
+    },
+    {
+      "name": "alienrpg-novgorod-station-scenes",
+      "label": "Alien RPG Novgorod Station",
+      "path": "packs/alienrpg-novgorod-station-scenes.db",
+      "entity": "Scene",
+      "module": "alienrpg-corerules"
+    }
+
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "protected": true,
+  "url": "https://frialigan.se/",
+  "manifest": "https://foundrymodulesbucket.s3.eu-north-1.amazonaws.com/alienrpg-corerules/module.json"
+}

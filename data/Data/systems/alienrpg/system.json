@@ -1,0 +1,105 @@
+{
+    "name": "alienrpg",
+    "title": "Alien RPG",
+    "description": "The Alien RPG system for Foundry VTT!",
+    "author": "Paul Watson",
+    "url": "https://github.com/pwatson100/alienrpg",
+    "flags": {},
+    "version": "2.1.3",
+    "minimumCoreVersion": "0.8.5",
+    "compatibleCoreVersion": "9",
+    "scripts": [],
+    "esmodules": [
+        "module/alienrpg.js"
+    ],
+    "styles": [
+        "css/alienrpg.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "lang/cn.json"
+        },
+        {
+            "lang": "zh-tw",
+            "name": "正體中文",
+            "path": "lang/zh-tw.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsche",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "lang/pt-br.json"
+        },
+        {
+            "lang": "it",
+            "name": "italiano",
+            "path": "lang/it.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "tables_gm",
+            "label": "Tables (GM)",
+            "path": "packs/AlienRPG-tables_gm.db",
+            "type": "RollTable",
+            "module": "AlienRPG",
+            "private": false
+        },
+        {
+            "name": "mother_instructions",
+            "label": "Mother Instructions",
+            "path": "packs/AlienRPG-mother-instructions.db",
+            "type": "JournalEntry",
+            "module": "AlienRPG",
+            "private": false
+        },
+        {
+            "name": "alien",
+            "label": "Alien",
+            "path": "packs/AlienRPG-alien.db",
+            "type": "Macro",
+            "module": "AlienRPG",
+            "private": false
+        },
+        {
+            "name": "skill-stunts",
+            "label": "Skill-Stunts",
+            "path": "packs/AlienRPG-skill-stunts.db",
+            "type": "Item",
+            "module": "AlienRPG",
+            "private": false
+        }
+    ],
+    "system": [],
+    "dependencies": [],
+    "socket": true,
+    "manifest": "https://github.com/pwatson100/alienrpg/releases/latest/download/system.json",
+    "download": "https://github.com/pwatson100/alienrpg/releases/download/2.1.3/master.zip",
+    "protected": false,
+    "initiative": "1d10",
+    "gridDistance": 5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "stress"
+}

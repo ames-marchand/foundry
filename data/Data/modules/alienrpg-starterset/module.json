@@ -1,0 +1,119 @@
+{
+  "name": "alienrpg-starterset",
+  "title": "AlienRPG Starter Set",
+  "description": "A Module containing all the data from the Alien RPG Starter Set.",
+  "author": "Paul Watson",
+  "version": "2.0.4",
+  "minimumCoreVersion": "0.8.5",
+  "compatibleCoreVersion": "9",
+	"esmodules": ["/module/init.js"],
+  "system": [
+    "alienrpg"
+  ],
+  "styles": [
+    "/css/starterset.css"
+  ],
+  "packs": [
+    {
+      "name": "alienrpg-ss-rules-journal",
+      "label": "Alien RPG Starter Set Rules",
+      "path": "packs/alienrpg-ss-rules-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-starter-sub-journals",
+      "label": "Alien RPG Sub-Entries",
+      "path": "packs/alienrpg-starter-sub-journals.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-the-art-of-alien-journal",
+      "label": "The Art of Alien",
+      "path": "packs/alienrpg-ss-the-art-of-alien-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-mother-aids-scenes",
+      "label": "Alien RPG Mother Aids",
+      "path": "packs/alienrpg-ss-mother-aids-scenes.db",
+      "entity": "Scene",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-armor-items",
+      "label": "Alien RPG Armor",
+      "path": "packs/alienrpg-ss-armor-items.db",
+      "entity": "Item",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-equipment-items",
+      "label": "Alien RPG Equipment",
+      "path": "packs/alienrpg-ss-equipment-items.db",
+      "entity": "Item",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-weapons-items",
+      "label": "Alien RPG Weapons",
+      "path": "packs/alienrpg-ss-weapons-items.db",
+      "entity": "Item",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-talentscareer-items",
+      "label": "Alien RPG Talents(Career)",
+      "path": "packs/alienrpg-ss-talentscareer-items.db",
+      "entity": "Item",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-cotg-agendas-items",
+      "label": "Alien RPG CotG - Agendas",
+      "path": "packs/alienrpg-ss-cotg-agendas-items.db",
+      "entity": "Item",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-tables-tables",
+      "label": "Alien Tables",
+      "path": "packs/alienrpg-ss-tables-tables.db",
+      "entity": "RollTable",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-cotg-scenario-journal",
+      "label": "Chariot Of the Gods - Scenario",
+      "path": "packs/alienrpg-ss-cotg-scenario-journal.db",
+      "entity": "JournalEntry",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-cotg-actors-actors",
+      "label": "Chariot of the Gods - Actors",
+      "path": "packs/alienrpg-ss-cotg-actors-actors.db",
+      "entity": "Actor",
+      "module": "alienrpg-starterset"
+    },
+    {
+      "name": "alienrpg-ss-cotg-maps-scenes",
+      "label": "Alien RPG Chariot of the Gods - Maps",
+      "path": "packs/alienrpg-ss-cotg-maps-scenes.db",
+      "entity": "Scene",
+      "module": "alienrpg-starterset"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "protected": true,
+  "url": "https://frialigan.se/",
+  "manifest": "https://foundrymodulesbucket.s3.eu-north-1.amazonaws.com/alienrpg-starterset/module.json"
+}
